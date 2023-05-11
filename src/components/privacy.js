@@ -71,7 +71,6 @@ const privacy = () => {
         <div
           style={{
             textAlign: "center",
-
             color: "black",
             fontSize: "19px",
             marginLeft: "30px",

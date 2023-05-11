@@ -4,6 +4,7 @@ import Contanctus from './components/contanctus';
 import Cancellation from './components/cancellation';
 import Privacy from "./components/privacy"
 import Terms from "./components/terms"
+import Packages from './components/packages';
 function App() {
   return (
     <>
@@ -20,8 +21,10 @@ function App() {
       <Privacy />
       <br />
       <br /><hr />
-      <Terms/>
-
+      <Terms />
+      <br />
+      <br /><hr />
+      <Packages/>
       
     </>
   );

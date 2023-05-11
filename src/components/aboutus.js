@@ -1,18 +1,18 @@
 import React from "react";
 import "../styles/aboutus.css";
-import About from "../assets/wepik-export-20230511113815kksJ.png"
+import About from "../assets/wepik-export-20230511113815kksJ.png";
 const aboutus = () => {
   return (
     <>
       <div>
-<img className="images" src={About} alt="About" />
+        <img className="images" src={About} alt="About" />
         <p
           style={{
             textAlign: "center",
             color: "blue",
             fontSize: "27px",
             fontFamily: "fantasy",
-            marginTop:"25px"
+            marginTop: "25px",
           }}
         >
           What We Do?
@@ -71,20 +71,19 @@ const aboutus = () => {
               <li>School</li>
             </ul>
           </div>
-          
         </div>
         <div class="container">
-      <div class="col1">
-        <h2>OUR VALUES</h2>
-        <ul>
-          <li>Commitment</li>
-          <li>Passionate</li>
-          <li>Transparency</li>
-          <li>Consistency</li>
-          <li>Efficiency</li>
-        </ul>
-      </div>
-    </div>
+          <div class="col1">
+            <h2>OUR VALUES</h2>
+            <ul>
+              <li>Commitment</li>
+              <li>Passionate</li>
+              <li>Transparency</li>
+              <li>Consistency</li>
+              <li>Efficiency</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </>
   );

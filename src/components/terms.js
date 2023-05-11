@@ -225,10 +225,10 @@ const terms = () => {
           fontFamily: "sans-serif",
         }}
       >
-        <pre>
+        <div>
           The following organizations may link to our Website without prior
           written approval:
-        </pre>
+        </div>
         <ul>
           <li>Government agencies</li>
           <li>Search engines</li>
@@ -243,10 +243,10 @@ const terms = () => {
           </li>
         </ul>
 
-        <pre>
+        <div>
           We may consider and approve other link requests from the following
           types of organizations:
-        </pre>
+        </div>
         <ul>
           <li>Commonly-known consumer and/or business information sources</li>
           <li>dot.com community sites</li>
@@ -296,9 +296,9 @@ const terms = () => {
           the URLs on our site to which you would like to link. Wait 2-3 weeks
           for a response.
         </p>
-        <pre>
+        <div>
           Approved organizations may hyperlink to our Website as follows:
-        </pre>
+        </div>
         <ul>
           <li>By use of our corporate name</li>
           <li>By use of the uniform resource locator being linked to</li>
@@ -321,8 +321,8 @@ const terms = () => {
           No use of KSK 's logo or other artwork will be allowed for linking
           absent a trademark license agreement.
         </p>
-          </div>
-          <div>
+      </div>
+      <div>
         <p
           style={{
             textAlign: "center",
@@ -331,7 +331,7 @@ const terms = () => {
             fontFamily: "fantasy",
           }}
         >
-        iFrames
+          iFrames
         </p>
         <div
           style={{
@@ -350,11 +350,13 @@ const terms = () => {
               marginTop: "10px",
             }}
           >
-           Without prior approval and written permission, you may not create frames around our Webpages that alter in any way the visual presentation or appearance of our Website.
+            Without prior approval and written permission, you may not create
+            frames around our Webpages that alter in any way the visual
+            presentation or appearance of our Website.
           </p>
         </div>
-          </div>
-          <div>
+      </div>
+      <div>
         <p
           style={{
             textAlign: "center",
@@ -363,7 +365,7 @@ const terms = () => {
             fontFamily: "fantasy",
           }}
         >
-        Content Liability
+          Content Liability
         </p>
         <div
           style={{
@@ -382,11 +384,16 @@ const terms = () => {
               marginTop: "10px",
             }}
           >
-           We shall not be hold responsible for any content that appears on your Website. You agree to protect and defend us against all claims that is rising on your Website. No link(s) should appear on any Website that may be interpreted as libelous, obscene or criminal, or which infringes, otherwise violates, or advocates the infringement or other violation of, any third party rights.
+            We shall not be hold responsible for any content that appears on
+            your Website. You agree to protect and defend us against all claims
+            that is rising on your Website. No link(s) should appear on any
+            Website that may be interpreted as libelous, obscene or criminal, or
+            which infringes, otherwise violates, or advocates the infringement
+            or other violation of, any third party rights.
           </p>
         </div>
-          </div>
-          <div>
+      </div>
+      <div>
         <p
           style={{
             textAlign: "center",
@@ -395,7 +402,7 @@ const terms = () => {
             fontFamily: "fantasy",
           }}
         >
-        Reservation of Rights
+          Reservation of Rights
         </p>
         <div
           style={{
@@ -414,11 +421,16 @@ const terms = () => {
               marginTop: "10px",
             }}
           >
-         We reserve the right to request that you remove all links or any particular link to our Website. You approve to immediately remove all links to our Website upon request. We also reserve the right to amen these terms and conditions and it's linking policy at any time. By continuously linking to our Website, you agree to be bound to and follow these linking terms and conditions.
+            We reserve the right to request that you remove all links or any
+            particular link to our Website. You approve to immediately remove
+            all links to our Website upon request. We also reserve the right to
+            amen these terms and conditions and it's linking policy at any time.
+            By continuously linking to our Website, you agree to be bound to and
+            follow these linking terms and conditions.
           </p>
         </div>
-          </div>
-          <div>
+      </div>
+      <div>
         <p
           style={{
             textAlign: "center",
@@ -426,7 +438,8 @@ const terms = () => {
             fontSize: "27px",
             fontFamily: "fantasy",
           }}
-        >Removal of links from our website
+        >
+          Removal of links from our website
         </p>
         <div
           style={{
@@ -445,19 +458,25 @@ const terms = () => {
               marginTop: "10px",
             }}
           >
-        If you find any link on our Website that is offensive for any reason, you are free to contact and inform us any moment. We will consider requests to remove links but we are not obligated to or so or to respond to you directly.
-                  </p>
-                  <p
+            If you find any link on our Website that is offensive for any
+            reason, you are free to contact and inform us any moment. We will
+            consider requests to remove links but we are not obligated to or so
+            or to respond to you directly.
+          </p>
+          <p
             style={{
               margiBottom: "10px",
               marginTop: "10px",
             }}
           >
-       We do not ensure that the information on this website is correct, we do not warrant its completeness or accuracy; nor do we promise to ensure that the website remains available or that the material on the website is kept up to date.
+            We do not ensure that the information on this website is correct, we
+            do not warrant its completeness or accuracy; nor do we promise to
+            ensure that the website remains available or that the material on
+            the website is kept up to date.
           </p>
         </div>
-          </div>
-          <div>
+      </div>
+      <div>
         <p
           style={{
             textAlign: "center",
@@ -466,7 +485,7 @@ const terms = () => {
             fontFamily: "fantasy",
           }}
         >
-        Disclaimer
+          Disclaimer
         </p>
         <div
           style={{
@@ -476,33 +495,45 @@ const terms = () => {
             marginRight: "30px",
             fontFamily: "sans-serif",
           }}
-              >
-                  <pre>To the maximum extent permitted by applicable law, we exclude all representations, warranties and conditions relating to our <br /> website and the use of this website.  Nothing in this disclaimer will:</pre>
-			<ul>
-				<li>Housing Society</li>
-				<li>Corporate Office</li>
-				<li>Retail Center Warehouse Factory Shopping Mall</li>
-				<li>Hotels</li>
-				<li>Hospital Resort</li>
-				<li>Industry</li>
-				<li>Govt.</li>
-				<li>University</li>
-			</ul>
+        >
+          <div>
+            To the maximum extent permitted by applicable law, we exclude all
+            representations, warranties and conditions relating to our <br />{" "}
+            website and the use of this website. Nothing in this disclaimer
+            will:
+          </div>
+          <ul>
+            <li>Housing Society</li>
+            <li>Corporate Office</li>
+            <li>Retail Center Warehouse Factory Shopping Mall</li>
+            <li>Hotels</li>
+            <li>Hospital Resort</li>
+            <li>Industry</li>
+            <li>Govt.</li>
+            <li>University</li>
+          </ul>
           <p
             style={{
               margiBottom: "10px",
               marginTop: "10px",
             }}
           >
-         We reserve the right to request that you remove all links or any particular link to our Website. You approve to immediately remove all links to our Website upon request. We also reserve the right to amen these terms and conditions and it's linking policy at any time. By continuously linking to our Website, you agree to be bound to and follow these linking terms and conditions.
-                  </p>
-                  <p
+            We reserve the right to request that you remove all links or any
+            particular link to our Website. You approve to immediately remove
+            all links to our Website upon request. We also reserve the right to
+            amen these terms and conditions and it's linking policy at any time.
+            By continuously linking to our Website, you agree to be bound to and
+            follow these linking terms and conditions.
+          </p>
+          <p
             style={{
               margiBottom: "10px",
               marginTop: "10px",
             }}
           >
-        As long as the website and the information and services on the website are provided free of charge, we will not be liable for any loss or damage of any nature.
+            As long as the website and the information and services on the
+            website are provided free of charge, we will not be liable for any
+            loss or damage of any nature.
           </p>
         </div>
       </div>
