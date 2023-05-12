@@ -6,7 +6,8 @@ const privacy = () => {
       <div>
         <p
           style={{
-            textAlign: "center",
+            marginLeft: "12px",
+
             color: "blue",
             fontSize: "27px",
             fontFamily: "fantasy",
@@ -60,7 +61,7 @@ const privacy = () => {
       <div>
         <p
           style={{
-            textAlign: "center",
+            marginLeft: "12px",
             color: "blue",
             fontSize: "27px",
             fontFamily: "fantasy",
@@ -70,7 +71,7 @@ const privacy = () => {
         </p>
         <div
           style={{
-            textAlign: "center",
+            marginLeft: "12px",
             color: "black",
             fontSize: "19px",
             marginLeft: "30px",
@@ -92,7 +93,7 @@ const privacy = () => {
       <div>
         <p
           style={{
-            textAlign: "center",
+            marginLeft: "12px",
             color: "blue",
             fontSize: "27px",
             fontFamily: "fantasy",
@@ -147,7 +148,7 @@ const privacy = () => {
       <div>
         <p
           style={{
-            textAlign: "center",
+            marginLeft: "12px",
             color: "blue",
             fontSize: "27px",
             fontFamily: "fantasy",
@@ -195,7 +196,7 @@ const privacy = () => {
       <div>
         <p
           style={{
-            textAlign: "center",
+            marginLeft: "12px",
             color: "blue",
             fontSize: "27px",
             fontFamily: "fantasy",
@@ -234,7 +235,7 @@ const privacy = () => {
       <div>
         <p
           style={{
-            textAlign: "center",
+            marginLeft: "12px",
             color: "blue",
             fontSize: "27px",
             fontFamily: "fantasy",
@@ -348,8 +349,8 @@ const privacy = () => {
           If you make a request, we have one month to respond to you. If you
           would like to exercise any of these rights, please contact us.
         </p>
-          </div>
-          <div
+      </div>
+      <div
         style={{
           color: "black",
           fontSize: "19px",
@@ -364,7 +365,7 @@ const privacy = () => {
             marginTop: "10px",
           }}
         >
-         GDPR Data Protection Rights
+          GDPR Data Protection Rights
         </p>
         <p
           style={{
@@ -372,7 +373,8 @@ const privacy = () => {
             marginTop: "10px",
           }}
         >
-         We would like to make sure you are fully aware of all of your data protection rights. Every user is entitled to the following:
+          We would like to make sure you are fully aware of all of your data
+          protection rights. Every user is entitled to the following:
         </p>
         <p
           style={{
@@ -380,7 +382,8 @@ const privacy = () => {
             marginTop: "10px",
           }}
         >
-         The right to access You have the right to request copies of your personal data. We may charge you a small fee for this service.
+          The right to access You have the right to request copies of your
+          personal data. We may charge you a small fee for this service.
         </p>
         <p
           style={{
@@ -388,7 +391,10 @@ const privacy = () => {
             marginTop: "10px",
           }}
         >
-          The right to rectification – You have the right to request that we correct any information you believe is inaccurate. You also have the right to request that we complete the information you believe is incomplete.
+          The right to rectification – You have the right to request that we
+          correct any information you believe is inaccurate. You also have the
+          right to request that we complete the information you believe is
+          incomplete.
         </p>
         <p
           style={{
@@ -396,7 +402,8 @@ const privacy = () => {
             marginTop: "10px",
           }}
         >
-          The right to erasure – You have the right to request that we erase your personal data, under certain conditions.
+          The right to erasure – You have the right to request that we erase
+          your personal data, under certain conditions.
         </p>
         <p
           style={{
@@ -404,43 +411,49 @@ const privacy = () => {
             marginTop: "10px",
           }}
         >
-         The right to restrict processing – You have the right to request that we restrict the processing of your personal data, under certain conditions.
-              </p>
-              <p
-          style={{
-            margiBottom: "10px",
-            marginTop: "10px",
-          }}
-        >
-        The right to object to processing – You have the right to object to our processing of your personal data, under certain conditions.
-              </p>
-              <p
-          style={{
-            margiBottom: "10px",
-            marginTop: "10px",
-          }}
-        >
-        The right to data portability – You have the right to request that we transfer the data that we have collected to another organization, or directly to you, under certain conditions.
-              </p>
-              <p
-          style={{
-            margiBottom: "10px",
-            marginTop: "10px",
-          }}
-        >
-        If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.
+          The right to restrict processing – You have the right to request that
+          we restrict the processing of your personal data, under certain
+          conditions.
         </p>
-          </div>
-          <div>
         <p
           style={{
-            textAlign: "center",
+            margiBottom: "10px",
+            marginTop: "10px",
+          }}
+        >
+          The right to object to processing – You have the right to object to
+          our processing of your personal data, under certain conditions.
+        </p>
+        <p
+          style={{
+            margiBottom: "10px",
+            marginTop: "10px",
+          }}
+        >
+          The right to data portability – You have the right to request that we
+          transfer the data that we have collected to another organization, or
+          directly to you, under certain conditions.
+        </p>
+        <p
+          style={{
+            margiBottom: "10px",
+            marginTop: "10px",
+          }}
+        >
+          If you make a request, we have one month to respond to you. If you
+          would like to exercise any of these rights, please contact us.
+        </p>
+      </div>
+      <div>
+        <p
+          style={{
+            marginLeft: "12px",
             color: "blue",
             fontSize: "27px",
             fontFamily: "fantasy",
           }}
         >
-         Children's Information
+          Children's Information
         </p>
       </div>
       <div
@@ -458,7 +471,9 @@ const privacy = () => {
             marginTop: "10px",
           }}
         >
-         Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.
+          Another part of our priority is adding protection for children while
+          using the internet. We encourage parents and guardians to observe,
+          participate in, and/or monitor and guide their online activity.
         </p>
         <p
           style={{
@@ -466,19 +481,23 @@ const privacy = () => {
             marginTop: "10px",
           }}
         >
-          LetUsMaintain does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.
+          LetUsMaintain does not knowingly collect any Personal Identifiable
+          Information from children under the age of 13. If you think that your
+          child provided this kind of information on our website, we strongly
+          encourage you to contact us immediately and we will do our best
+          efforts to promptly remove such information from our records.
         </p>
-          </div>
-          <div>
+      </div>
+      <div>
         <p
           style={{
-            textAlign: "center",
+            marginLeft: "12px",
             color: "blue",
             fontSize: "27px",
             fontFamily: "fantasy",
           }}
         >
-       Changes to This Privacy Policy
+          Changes to This Privacy Policy
         </p>
       </div>
       <div
@@ -496,7 +515,11 @@ const privacy = () => {
             marginTop: "10px",
           }}
         >
-         We may update our Privacy Policy from time to time. Thus, we advise you to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately, after they are posted on this page.
+          We may update our Privacy Policy from time to time. Thus, we advise
+          you to review this page periodically for any changes. We will notify
+          you of any changes by posting the new Privacy Policy on this page.
+          These changes are effective immediately, after they are posted on this
+          page.
         </p>
         <p
           style={{
@@ -504,19 +527,20 @@ const privacy = () => {
             marginTop: "10px",
           }}
         >
-          Our Privacy Policy was created with the help of the Privacy Policy Generator.
+          Our Privacy Policy was created with the help of the Privacy Policy
+          Generator.
         </p>
-          </div>
-          <div>
+      </div>
+      <div>
         <p
           style={{
-            textAlign: "center",
+            marginLeft: "12px",
             color: "blue",
             fontSize: "27px",
             fontFamily: "fantasy",
           }}
         >
-      Contact Us
+          Contact Us
         </p>
       </div>
       <div
@@ -534,7 +558,8 @@ const privacy = () => {
             marginTop: "10px",
           }}
         >
-        If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us.
+          If you have any questions or suggestions about our Privacy Policy, do
+          not hesitate to contact us.
         </p>
       </div>
     </>

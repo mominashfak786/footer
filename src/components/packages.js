@@ -23,7 +23,7 @@ const packages = () => {
       >
         All Solutions Package-
       </p>
-      <div className="tablecontainer">
+      <div className="tablecontainer1">
         <p
           style={{
             color: "black",
@@ -37,7 +37,7 @@ const packages = () => {
         <table className="table css">
           <thead className="thead-dark">
             <tr>
-              <th scope="col">#</th>
+              <th scope="col">No</th>
               <th scope="col">Country</th>
               <th scope="col">Standard [Monthly]</th>
               <th scope="col">Growth [Monthly]</th>
@@ -93,7 +93,7 @@ const packages = () => {
           <table className="table css">
             <thead className="thead-dark">
               <tr>
-                <th scope="col">#</th>
+                <th scope="col">No</th>
                 <th scope="col">Country</th>
                 <th scope="col">Standard [Monthly]</th>
                 <th scope="col">Growth [Monthly]</th>
@@ -160,7 +160,7 @@ const packages = () => {
           <table className="table css">
             <thead className="thead-dark">
               <tr>
-                <th scope="col">#</th>
+                <th scope="col">No</th>
                 <th scope="col">Country</th>
                 <th scope="col">Standard [Monthly]</th>
                 <th scope="col">Growth [Monthly]</th>
@@ -184,6 +184,7 @@ const packages = () => {
         </div>
       </div>
       {/*  */}
+
       <p
         style={{
           color: "black",
@@ -191,11 +192,12 @@ const packages = () => {
           fontWeight: "bolder",
           marginLeft: "20px",
         }}
-          >
-              <hr />
-        Individual Sales Model:-
-          </p>
-          <p
+      >
+        <hr />
+        As per Services Package:-
+      </p>
+      <div className="tablecontainer1">
+        <p
           style={{
             color: "black",
             fontSize: "27px",
@@ -205,11 +207,486 @@ const packages = () => {
         >
           Asia-
         </p>
-      <div className="tablecontainer1">
         <table class="table">
           <thead class="thead-dark">
             <tr>
-              <th scope="col">#</th>
+              <th scope="col">No</th>
+              <th scope="col">Country</th>
+              <th scope="col">Type of Services</th>
+              <th scope="col">Monthly Fee</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>India</td>
+              <td>Electrical &amp; Electronics Maintenance</td>
+              <td>INR 50000</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Plumbing Maintenance</td>
+              <td>INR 50000</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Computer System Maintenance</td>
+              <td>INR 70000</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Carpenter Services</td>
+              <td>INR 50000</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Cleaning Solutions</td>
+              <td>INR 60000</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Landscaping Services</td>
+              <td>INR 60000</td>
+            </tr>
+
+            {/*  */}
+            <tr>
+              <th scope="row">2</th>
+              <td>Thailand</td>
+              <td>Electrical &amp; Electronics Maintenance</td>
+              <td>Thai B. 100000</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Plumbing Maintenance</td>
+              <td>Thai B. 100000</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Computer System Maintenance</td>
+              <td>Thai B. 115000</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Carpenter Services</td>
+              <td>Thai B. 100000</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Cleaning Solutions</td>
+              <td>Thai B. 85000</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Landscaping Services</td>
+              <td>Thai B. 85000</td>
+            </tr>
+
+            {/*  */}
+
+            <tr>
+              <th scope="row">3</th>
+              <td>Singapore</td>
+              <td>Electrical &amp; Electronics Maintenance</td>
+              <td>SGD$ 5000</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Plumbing Maintenance</td>
+              <td>SGD$ 5000</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Computer System Maintenance</td>
+              <td>SGD$ 6500</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Carpenter Services</td>
+              <td>SGD$ 5000</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Cleaning Solutions</td>
+              <td>SGD$ 5500</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Landscaping Services</td>
+              <td>SGD$ 5500</td>
+            </tr>
+
+            {/*  */}
+
+            <tr>
+              <th scope="row">4</th>
+              <td>Hong Kong</td>
+              <td>Electrical &amp; Electronics Maintenance</td>
+              <td>HK$ 70000</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Plumbing Maintenance</td>
+              <td>HK$ 70000</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Computer System Maintenance</td>
+              <td>HK$ 90000</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Carpenter Services</td>
+              <td>HK$ 70000</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Cleaning Solutions</td>
+              <td>HK$ 60000</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Landscaping Services</td>
+              <td>HK$ 60000</td>
+            </tr>
+
+            {/*  */}
+            <tr>
+              <th scope="row">5</th>
+              <td>UAE</td>
+              <td>Electrical &amp; Electronics Maintenance</td>
+              <td>Dirham 6500</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Plumbing Maintenance</td>
+              <td>Dirham 6500</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Computer System Maintenance</td>
+              <td>Dirham 8500</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Carpenter Services</td>
+              <td>Dirham 6500</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Cleaning Solutions</td>
+              <td>Dirham 7500</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Landscaping Services</td>
+              <td>Dirham 7500</td>
+            </tr>
+          </tbody>
+        </table>
+
+        {/*  */}
+      </div>
+      <br />
+      {/* ---------- */}
+      <div className="tablecontainer1">
+        <p
+          style={{
+            color: "black",
+            fontSize: "27px",
+            fontWeight: "bold",
+            marginLeft: "20px",
+          }}
+        >
+          Europe Region-
+        </p>
+        <table class="table">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">No</th>
+              <th scope="col">Country</th>
+              <th scope="col">Type of Services</th>
+              <th scope="col">Monthly Fee</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Europe Union Nations</td>
+              <td>Electrical &amp; Electronics Maintenance</td>
+              <td>Euro 5400</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Plumbing Maintenance</td>
+              <td>Euro 5400</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Computer System Maintenance</td>
+              <td>Euro Euro 6900</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Carpenter Services</td>
+              <td>Euro 5400</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Cleaning Solutions</td>
+              <td>Euro 6400</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Landscaping Services</td>
+              <td>Euro 5900</td>
+            </tr>
+
+            {/*  */}
+            <tr>
+              <th scope="row">2</th>
+              <td>United Kingdom</td>
+              <td>Electrical &amp; Electronics Maintenance</td>
+              <td>GBP 4900</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Plumbing Maintenance</td>
+              <td>GBP 4900</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Computer System Maintenance</td>
+              <td>GBP 6900</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Carpenter Services</td>
+              <td>GBP 4900</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Cleaning Solutions</td>
+              <td>GBP 6500</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Landscaping Services</td>
+              <td>GBP 6000</td>
+            </tr>
+
+            {/*  */}
+
+            <tr>
+              <th scope="row">3</th>
+              <td>Switzerland</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>Denmark</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th scope="row">5</th>
+              <td>Sweden</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th scope="row">6</th>
+              <td>Hungary</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th scope="row">7</th>
+              <td>poland</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+
+        {/*  */}
+      </div>
+     <br />
+    
+      {/* ////////////////////// */}
+      <div className="tablecontainer1">
+        <p
+          style={{
+            color: "black",
+            fontSize: "27px",
+            fontWeight: "bold",
+            marginLeft: "20px",
+          }}
+        >
+          North America Region-
+        </p>
+        <table class="table">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">No</th>
+              <th scope="col">Country</th>
+              <th scope="col">Type of Services</th>
+              <th scope="col">Monthly Fee</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Canada</td>
+              <td>Electrical &amp; Electronics Maintenance</td>
+              <td>CAD 6900</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Plumbing Maintenance</td>
+              <td>CAD 6900</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Computer System Maintenance</td>
+              <td>CAD 6900</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Carpenter Services</td>
+              <td>CAD 8900</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Cleaning Solutions</td>
+              <td>CAD 7900</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Landscaping Services</td>
+              <td>CAD 7900</td>
+            </tr>
+
+            {/*  */}
+            <tr>
+              <th scope="row">2</th>
+              <td>United States</td>
+              <td>Electrical &amp; Electronics Maintenance</td>
+              <td>US$ 7000</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Plumbing Maintenance</td>
+              <td>US$ 7000</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Computer System Maintenance</td>
+              <td>US$ 7000</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Carpenter Services</td>
+              <td>US$ 9000</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Cleaning Solutions</td>
+              <td>US$ 9000</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Landscaping Services</td>
+              <td>US$ 9000</td>
+            </tr>
+
+            {/*  */}
+
+          
+          </tbody>
+        </table>
+
+        {/*  */}
+      </div>
+      {/*  */}
+      <p
+        style={{
+          color: "black",
+          fontSize: "27px",
+          fontWeight: "bolder",
+          marginLeft: "20px",
+        }}
+      >
+        <hr />
+        Individual Sales Model:-
+      </p>
+
+      <div className="tablecontainer1">
+        <p
+          style={{
+            color: "black",
+            fontSize: "27px",
+            fontWeight: "bold",
+            marginLeft: "20px",
+          }}
+        >
+          Asia-
+        </p>
+        <table class="table">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">No</th>
               <th scope="col">Country</th>
               <th scope="col">Package Cost [Yearly]</th>
             </tr>
@@ -246,8 +723,8 @@ const packages = () => {
               <td>Dirham 4900</td>
             </tr>
           </tbody>
-              </table>
-              <p
+        </table>
+        <p
           style={{
             color: "black",
             fontSize: "27px",
@@ -255,12 +732,12 @@ const packages = () => {
             marginLeft: "20px",
           }}
         >
-         Europe Region-
-              </p>
-              <table class="table">
+          Europe Region-
+        </p>
+        <table class="table">
           <thead class="thead-dark">
             <tr>
-              <th scope="col">#</th>
+              <th scope="col">No</th>
               <th scope="col">Country</th>
               <th scope="col">Package Cost [Yearly]</th>
             </tr>
@@ -297,8 +774,8 @@ const packages = () => {
               <td>-</td>
             </tr>
           </tbody>
-              </table>
-              <p
+        </table>
+        <p
           style={{
             color: "black",
             fontSize: "27px",
@@ -306,12 +783,12 @@ const packages = () => {
             marginLeft: "20px",
           }}
         >
-        North America Region-
-              </p>
-              <table class="table">
+          North America Region-
+        </p>
+        <table class="table">
           <thead class="thead-dark">
             <tr>
-              <th scope="col">#</th>
+              <th scope="col">No</th>
               <th scope="col">Country</th>
               <th scope="col">Package Cost [Yearly]</th>
             </tr>
@@ -327,10 +804,8 @@ const packages = () => {
               <td>United States</td>
               <td>US$ 1350</td>
             </tr>
-            
-           
           </tbody>
-              </table>
+        </table>
       </div>
     </>
   );

@@ -8,18 +8,17 @@ const aboutus = () => {
         <img className="images" src={About} alt="About" />
         <p
           style={{
-            textAlign: "center",
             color: "blue",
             fontSize: "27px",
             fontFamily: "fantasy",
             marginTop: "25px",
+            marginLeft: "10px",
           }}
         >
           What We Do?
         </p>
         <div
           style={{
-            textAlign: "center",
             color: "black",
             fontSize: "19px",
             marginLeft: "30px",
@@ -40,18 +39,19 @@ const aboutus = () => {
       <div>
         <p
           style={{
-            textAlign: "center",
             color: "blue",
             fontSize: "27px",
             fontFamily: "fantasy",
+            marginLeft: "10px",
+            marginTop:"20px"
           }}
         >
-          We have to service models:
+          We have two service models:
         </p>
         <div class="container">
           <div class="col">
-            <h2>B to B</h2>
-            <ul>
+            <h2 className="bullet-points">B to B</h2>
+            <ul >
               <li>Housing Society</li>
               <li>Corporate Office</li>
               <li>Retail, Center, Warehouse, Factory, Shopping Mall</li>
@@ -63,8 +63,8 @@ const aboutus = () => {
             </ul>
           </div>
           <div class="col">
-            <h2>B to C</h2>
-            <ul>
+            <h2 className="bullet-points">B to C</h2>
+            <ul >
               <li>Flat/Villa</li>
               <li>Office Shop/Showroom, Household, Guest House</li>
               <li>Clinic, Private Farm</li>
@@ -72,9 +72,9 @@ const aboutus = () => {
             </ul>
           </div>
         </div>
-        <div class="container">
-          <div class="col1">
-            <h2>OUR VALUES</h2>
+      </div>
+      <div class="col1">
+            <h2>Our Values</h2>
             <ul>
               <li>Commitment</li>
               <li>Passionate</li>
@@ -83,8 +83,6 @@ const aboutus = () => {
               <li>Efficiency</li>
             </ul>
           </div>
-        </div>
-      </div>
     </>
   );
 };

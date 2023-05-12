@@ -6,10 +6,11 @@ const cancellation = () => {
       <div>
         <p
           style={{
-            textAlign: "center",
+            marginLeft:'10px',
             color: "blue",
             fontSize: "27px",
             fontFamily: "fantasy",
+            marginTop:'20px'
           }}
         >
           Return & Refund Policy of www.letusmaintain.com

@@ -6,7 +6,7 @@ const terms = () => {
       <div>
         <p
           style={{
-            textAlign: "center",
+           marginLeft:"12px",
             color: "blue",
             fontSize: "27px",
             fontFamily: "fantasy",
@@ -69,7 +69,7 @@ const terms = () => {
       <div>
         <p
           style={{
-            textAlign: "center",
+           marginLeft:"12px",
             color: "blue",
             fontSize: "27px",
             fontFamily: "fantasy",
@@ -105,7 +105,7 @@ const terms = () => {
       <div>
         <p
           style={{
-            textAlign: "center",
+           marginLeft:"12px",
             color: "blue",
             fontSize: "27px",
             fontFamily: "fantasy",
@@ -207,7 +207,7 @@ const terms = () => {
       <div>
         <p
           style={{
-            textAlign: "center",
+           marginLeft:"12px",
             color: "blue",
             fontSize: "27px",
             fontFamily: "fantasy",
@@ -325,7 +325,7 @@ const terms = () => {
       <div>
         <p
           style={{
-            textAlign: "center",
+           marginLeft:"12px",
             color: "blue",
             fontSize: "27px",
             fontFamily: "fantasy",
@@ -335,11 +335,11 @@ const terms = () => {
         </p>
         <div
           style={{
-            textAlign: "center",
+           marginLeft:"12px",
 
             color: "black",
             fontSize: "19px",
-            marginLeft: "30px",
+
             marginRight: "30px",
             fontFamily: "sans-serif",
           }}
@@ -359,7 +359,7 @@ const terms = () => {
       <div>
         <p
           style={{
-            textAlign: "center",
+           marginLeft:"12px",
             color: "blue",
             fontSize: "27px",
             fontFamily: "fantasy",
@@ -369,11 +369,11 @@ const terms = () => {
         </p>
         <div
           style={{
-            textAlign: "center",
+           marginLeft:"12px",
 
             color: "black",
             fontSize: "19px",
-            marginLeft: "30px",
+            
             marginRight: "30px",
             fontFamily: "sans-serif",
           }}
@@ -396,7 +396,7 @@ const terms = () => {
       <div>
         <p
           style={{
-            textAlign: "center",
+           marginLeft:"12px",
             color: "blue",
             fontSize: "27px",
             fontFamily: "fantasy",
@@ -406,11 +406,11 @@ const terms = () => {
         </p>
         <div
           style={{
-            textAlign: "center",
+           marginLeft:"12px",
 
             color: "black",
             fontSize: "19px",
-            marginLeft: "30px",
+ 
             marginRight: "30px",
             fontFamily: "sans-serif",
           }}
@@ -433,7 +433,7 @@ const terms = () => {
       <div>
         <p
           style={{
-            textAlign: "center",
+           marginLeft:"12px",
             color: "blue",
             fontSize: "27px",
             fontFamily: "fantasy",
@@ -443,11 +443,11 @@ const terms = () => {
         </p>
         <div
           style={{
-            textAlign: "center",
+           marginLeft:"12px",
 
             color: "black",
             fontSize: "19px",
-            marginLeft: "30px",
+       
             marginRight: "30px",
             fontFamily: "sans-serif",
           }}
@@ -479,7 +479,7 @@ const terms = () => {
       <div>
         <p
           style={{
-            textAlign: "center",
+           marginLeft:"12px",
             color: "blue",
             fontSize: "27px",
             fontFamily: "fantasy",

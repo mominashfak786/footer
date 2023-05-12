@@ -6,13 +6,20 @@
 
 .images {
     width: 100%;
-    height: 58vh;
+    height: 55vh !important;
   }
+
+  .bullet-points::before {
+    content: '\2605'; /* star character */
+    margin-right: 0.5em;
+  }
+  
+
      
-@media screen {
+@media screen and (max-width:400px){
     .images {
-        width: 100%;
-        height:100%;
+        width: 100% !important;
+        height:100% !important;
       }
 }
 
@@ -27,17 +34,18 @@
 .col ul {
   padding-left: 20px;
   list-style: disc;
+  font-size: large;
 }
 
 .col1 {
-  margin: auto;
-  background-color: #f2f2f2;
+  margin-left:45px;
   padding: 60px;
   border-radius: 5px;
 }
 .col1 ul {
   padding-left: 20px;
   list-style: disc;
+  font-size: large;
 }
 
 @media screen and (max-width: 768px) {

@@ -2,13 +2,15 @@ import React from "react";
 import "../styles/contanctus.css";
 const contanctus = () => {
   return (
+    <>
+     
     <div className="container1">
       <div className=" text-center mt-5 ">
         <p
           style={{
             textAlign: "center",
             color: "blue",
-            fontSize: "27px",
+            fontSize: "35px",
             fontFamily: "fantasy",
           }}
         >
@@ -156,7 +158,23 @@ const contanctus = () => {
         </div>
         {/* /.row*/}
       </div>
-    </div>
+      <div class="row justify-content-center mt-2  ">
+  <div class="col-md-3 text-center ">
+    <ul class="list-unstyled mb-0">
+
+      <li>
+        <i class="fas fa-envelope mt-4 fa-1x">Email </i>
+        <p>info@letusmaintain.com</p>
+      </li>
+            </ul>
+            <i class="fas fa-phone-alt fa-1x"> Helpline Number-</i>
+           <span>+912269621753</span>
+                <div> [10:00 am to 06:00 pm] I.S.T</div> 
+  </div>
+</div>
+
+      </div>
+      </>
   );
 };
 
